@@ -4,7 +4,7 @@ stages {
 stage ('Timeout') {
 steps {
 retry(3) {
-sh 'I am not going tp work :c'
+sh 'I am not going to work :c'
 }
 }
 }
